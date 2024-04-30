@@ -97,7 +97,7 @@ So, why wait? Dive into P.E.E.R. today and experience a tailored learning journe
 
 ## Materials
 
-[Project Repository](https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/tree/main)
+[Project Repository](https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/tree/main)
 
 [2-min Video](https://www.youtube.com/watch?v=hq2p_ULwxLk)
 
