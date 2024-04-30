@@ -53,15 +53,20 @@ P.E.E.R has two main functionalities:
 **Our Recommendation System**
 
 1) It uses the BERT for natural language processing tasks and the tokenizer to convert text into a format that BERT can process.
+   
 2) Book/Online Course descriptions are analyzed and compared using BERT to generate embeddings, which are representations of the text.
+   
 3) Generated embeddings are cached to avoid redundant computations and can be loaded when recommending resources.
+   
 4) User interactions, such as clicks on books, are tracked for implicit feedback and stored in the user database.
+   
 5) Cosine similarity is computed between user-clicked book embeddings and all book embeddings in the database.
+    
 6) Top books are recommended based on the highest cosine similarity scores, ensuring diverse and relevant recommendations.
 
 **Our User Interface**
 
-The user interface for P.E.E.R is created using Flask and Python. Flask is a lightweight web framework for Python, making it suitable for building simple and efficient web applications. Few stills from the UI are below:
+The user interface for P.E.E.R was created using Flask and Python. Flask is a lightweight web framework for Python, making it suitable for building simple and efficient web applications.
 
 <p align="center">
   <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700" alt="page 1">
@@ -92,7 +97,7 @@ So, why wait? Dive into P.E.E.R. today and experience a tailored learning journe
 
 ## Materials
 
-[Project - Repository](https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/tree/main)
+[Project Repository](https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/tree/main)
 
 [2-min Video](https://www.youtube.com/watch?v=hq2p_ULwxLk)
 
