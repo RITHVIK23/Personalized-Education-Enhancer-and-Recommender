@@ -1,6 +1,8 @@
 # Welcome to P.E.E.R. - Your Personalized Learning Companion!
 <p align="center">
-<img width="100" alt="PEER" src="https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/assets/58556705/b2aecebf-df89-451d-9277-62d106bb17a5">
+
+<img width="100" alt="PEER" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/0f0dcb43-6f74-4f84-9176-17c6836a8a37">
+
 </p>
 
 **Authors:**
@@ -50,19 +52,22 @@ P.E.E.R has two main functionalities:
 3) Generated embeddings are cached to avoid redundant computations and can be loaded when recommending resources.
 4) User interactions, such as clicks on books, are tracked for implicit feedback and stored in the user database.
 5) Cosine similarity is computed between user-clicked book embeddings and all book embeddings in the database.
-6) Top books are recommended based on the highest cosine similarity scores, ensuring diverse and relevant recommendations.
+6) Top books are recommended based<img width="1280" alt="page 1 " src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/cd698311-84c4-49fc-a407-4951f89a6691">
+ on the highest cosine similarity scores, ensuring diverse and relevant recommendations.
 
 **Our User Interface**
 
 The user interface for P.E.E.R is created using Flask and Python. Flask is a lightweight web framework for Python, making it suitable for building simple and efficient web applications. Few stills from the UI are below:
 
+
+
 <p align="center">
-  <img width="400" src="https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/assets/58556705/776d2349-27ec-4248-9824-a142497313ba" alt="page 1">
-  <img width="400" src="https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/assets/58556705/8bb37f27-5462-4cec-a1d7-123418e60606" alt="page 2">
+   <img width="1280" alt="page 1 " src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700">
+   <img width="1280" alt="page 2" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432">
 </p>
 <p align="center">
-  <img width="400" src="https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/assets/58556705/eb1a5aa5-043e-43e2-a484-4ca71137817e" alt="page 3">
-  <img width="400" src="https://github.com/RITHVIK23/Personalised-Education-Enhancer-Recommender/assets/58556705/0d7f63d5-c579-445c-a739-7cced938ec83" alt="page 4">
+  <img width="1280" alt="page 3" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/21250a7a-f23d-486d-8a55-7542da30144e">
+  <img width="1280" alt="page 4" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd">
 </p>
 
 **Is P.E.E.R doing good?**
