@@ -52,23 +52,33 @@ P.E.E.R has two main functionalities:
 3) Generated embeddings are cached to avoid redundant computations and can be loaded when recommending resources.
 4) User interactions, such as clicks on books, are tracked for implicit feedback and stored in the user database.
 5) Cosine similarity is computed between user-clicked book embeddings and all book embeddings in the database.
-6) Top books are recommended based<img width="1280" alt="page 1 " src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/cd698311-84c4-49fc-a407-4951f89a6691">
- on the highest cosine similarity scores, ensuring diverse and relevant recommendations.
+6) Top books are recommended based on the highest cosine similarity scores, ensuring diverse and relevant recommendations.
 
 **Our User Interface**
 
 The user interface for P.E.E.R is created using Flask and Python. Flask is a lightweight web framework for Python, making it suitable for building simple and efficient web applications. Few stills from the UI are below:
 
-
+<style>
+  .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+  }
+  .down-arrow {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px; /* Adjust the margin-top value as needed */
+  }
+</style>
 
 <p align="center">
   <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700" alt="page 1">
-  ➡️
+  <span class="arrow">➡️</span>
   <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432" alt="page 2">
-</p>
-<p align="center">
+  <span class="down-arrow">⬇️</span>
   <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/21250a7a-f23d-486d-8a55-7542da30144e" alt="page 3">
-  ➡️
+  <span class="arrow">➡️</span>
   <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd" alt="page 4">
 </p>
 
