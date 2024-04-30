@@ -69,6 +69,16 @@ The user interface for P.E.E.R is created using Flask and Python. Flask is a lig
   <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd" alt="page 4">
 </p>
 
+
+
+<p align="center">
+  <img src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700" alt="Description of your image" style="width: 80%; vertical-align: middle;">
+  <!-- Add your arrow image inside this paragraph and style it accordingly -->
+  <img src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432" alt="Arrow" style="width: 10%; vertical-align: middle;">
+</p>
+
+
+
 **Is P.E.E.R doing good?**
 
 As we strive to improve P.E.E.R.'s performance, user feedback will play a crucial role in evaluating our system. By listening to our users, we can better understand what works well and what can be improved. This feedback loop will help us refine our algorithms and ensure that P.E.E.R. continues to deliver high-quality recommendations.
