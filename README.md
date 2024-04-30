@@ -7,8 +7,8 @@
 
 **Authors:**
 
-1) Rithvik Srinivasaiya, MS in Data Science'24, Texas A&M University. 
-2) Sriram Balasubramanian, MS in Data Science'24, Texas A&M University.    
+1) Rithvik Srinivasaiya, MS in Data Science'24, Texas A&M University.
+2) Sriram Balasubramanian, MS in Data Science'24, Texas A&M University.
 3) Uma Sivakumar, MS in Data Science’24, Texas A&M University.
 
 **Advisor:** Prof. James Caverlee, Department of Computer Science & Engineering, Texas A&M University.
