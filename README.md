@@ -17,7 +17,7 @@
 Ever felt lost in the sea of educational resources available online? You’re not alone! In today’s digital age, while there's no shortage of information, finding the right learning materials that fit your needs and skill level can be like finding a needle in a haystack. That's why we created **P.E.E.R. (Personalized Education Enhancer and Recommender)** — a one-stop platform that simplifies your search and learning process. P.E.E.R. is a centralized platform that simplifies your learning process by providing educational resources from various popular platforms like Google Books and Udemy, all under one roof. Whether you're starting fresh on a topic or diving deeper into specialized subjects, P.E.E.R. tailors the learning experience to your needs. This means you can spend more time actually learning and less time searching, making your study time both efficient and enjoyable.
 
 
-Creating P.E.E.R. wasn’t a walk in the park. We faced our fair share of challenges, like figuring out which and how many platforms to draw resources from and dealing with massive amounts of data which at times felt like it might blow up our PCs! But through determination and a bit of tech wizardry, we’ve built a system that’s not only robust but also gets smarter over time.
+
 
 ## Why P.E.E.R. Could Be Your New Best Study Buddy
 
@@ -35,15 +35,20 @@ We gathered our data from two main sources to offer a broad range of educational
 P.E.E.R has two main functionalities:
 
 1) Full-Text Search: P.E.E.R. aggregates educational content from multiple sources, including books and video courses, and presents it in a single, easy-to-access platform. Users can search for a topic and find relevant resources from integrated platforms.
+   
 2) Personalized Recommendations Based on User Preferences: P.E.E.R. analyzes user interactions, preferences, and past searches to deliver personalized recommendations. This helps users discover content that aligns with their interests and learning goals.
 
 **Our Search Engine**
 
 1) We utilize PostgreSQL's Full-Text Search (FTS) capabilities as the main feature for building our search engine.
-2) FTS processes text data by breaking it into words or tokens, lowercasing, stemming, and removing stopwords, and then converts it into a vector of lexemes stored in a tsvector data type.
-3) It uses GIN (Generalized Inverted Index) indexing methods to speed up text searching operations, making document retrieval based on search queries much faster compared to using traditional SQL LIKE or regular expressions.
-4) FTS offers functions to rank results based on their relevance to the search query, considering factors like term frequency, proximity, and significance in the document using weights.
-5) It supports complex querying capabilities including boolean operators and phrase search, enabling sophisticated search queries that accurately reflect user intent.
+   
+3) FTS processes text data by breaking it into words or tokens, lowercasing, stemming, and removing stopwords, and then converts it into a vector of lexemes stored in a tsvector data type.
+   
+5) It uses GIN (Generalized Inverted Index) indexing methods to speed up text searching operations, making document retrieval based on search queries much faster compared to using traditional SQL LIKE or regular expressions.
+   
+7) FTS offers functions to rank results based on their relevance to the search query, considering factors like term frequency, proximity, and significance in the document using weights.
+   
+9) It supports complex querying capabilities including boolean operators and phrase search, enabling sophisticated search queries that accurately reflect user intent.
 
 **Our Recommendation System**
 
@@ -75,6 +80,7 @@ The user interface for P.E.E.R is created using Flask and Python. Flask is a lig
 As we strive to improve P.E.E.R.'s performance, user feedback will play a crucial role in evaluating our system. By listening to our users, we can better understand what works well and what can be improved. This feedback loop will help us refine our algorithms and ensure that P.E.E.R. continues to deliver high-quality recommendations.
 
 ## Looking Ahead
+Creating P.E.E.R. wasn’t a walk in the park. We faced our fair share of challenges, like figuring out which and how many platforms to draw resources from and dealing with massive amounts of data which at times felt like it might blow up our PCs! But through determination and a bit of tech wizardry, we’ve built a system that’s not only robust but also gets smarter over time.
 
 As we look to the future, we’re excited to expand our resource pool, further refine our algorithms, and introduce community features to make learning not just a personal journey but a shared experience.
 
