@@ -39,7 +39,7 @@ P.E.E.R has two main functionalities:
 
 **Our Search Engine**
 
-1) We utilize PostgreSQL's Full-Text Search (FTS) capabilities as the main feature for building our search engine. 
+1) We utilize PostgreSQL's Full-Text Search (FTS) capabilities as the main feature for building our search engine.
 2) FTS processes text data by breaking it into words or tokens, lowercasing, stemming, and removing stopwords, and then converts it into a vector of lexemes stored in a tsvector data type.
 3) It uses GIN (Generalized Inverted Index) indexing methods to speed up text searching operations, making document retrieval based on search queries much faster compared to using traditional SQL LIKE or regular expressions.
 4) FTS offers functions to rank results based on their relevance to the search query, considering factors like term frequency, proximity, and significance in the document using weights.
