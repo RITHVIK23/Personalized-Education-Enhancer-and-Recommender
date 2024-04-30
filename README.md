@@ -28,7 +28,7 @@ Creating P.E.E.R. wasn’t a walk in the park. We faced our fair share of challe
 
 ## Where did we collect our data?
 
-We gathered our data from two main sources to offer a broad range of educational content. By using APIs from Google Books and Udemy, we collected almost 120k rows of data from Google Books and almost 4k rows of data from Udemy courses, providing users with diverse resources to explore. To store this data effectively, we turned to Amazon AWS's cloud database. This PostgreSQL database allowed us to organize the data into relational tables, making it easy to access and manage. Before integrating the data into our model, we took the necessary steps to clean and prepare it. This ensured that the data was in optimal condition for use in our model. Our process involved collecting data from multiple sources, storing it in a cloud database, and preprocessing it to maintain its quality. This data was then integrated into our model to generate personalized educational recommendations based on user preferences and interaction history.
+We gathered our data from two main sources to offer a broad range of educational content. By using APIs from Google Books and Udemy, we collected almost 120k rows of data from Google Books and almost 40k rows of data from Udemy courses, providing users with diverse resources to explore. To store this data effectively, we turned to Amazon AWS's cloud database. This PostgreSQL database allowed us to organize the data into relational tables, making it easy to access and manage. Before integrating the data into our model, we took the necessary steps to clean and prepare it. This ensured that the data was in optimal condition for use in our model. Our process involved collecting data from multiple sources, storing it in a cloud database, and preprocessing it to maintain its quality. This data was then integrated into our model to generate personalized educational recommendations based on user preferences and interaction history.
 
 ## How Does P.E.E.R actually Work?
 
@@ -62,13 +62,16 @@ The user interface for P.E.E.R is created using Flask and Python. Flask is a lig
 
 
 <p align="center">
-   <img width="1280" alt="page 1 " src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700">
-   <img width="1280" alt="page 2" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432">
+  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700" alt="page 1">
+  ➡️
+  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432" alt="page 2">
 </p>
 <p align="center">
-  <img width="1280" alt="page 3" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/21250a7a-f23d-486d-8a55-7542da30144e">
-  <img width="1280" alt="page 4" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd">
+  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/21250a7a-f23d-486d-8a55-7542da30144e" alt="page 3">
+  ➡️
+  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd" alt="page 4">
 </p>
+
 
 **Is P.E.E.R doing good?**
 
