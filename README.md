@@ -58,11 +58,16 @@ P.E.E.R has two main functionalities:
 
 The user interface for P.E.E.R is created using Flask and Python. Flask is a lightweight web framework for Python, making it suitable for building simple and efficient web applications. Few stills from the UI are below:
 
+
 <style>
+  .images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .arrow {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 10px;
+    font-size: 24px;
+    margin: 0 10px;
   }
   .down-arrow {
     display: block;
@@ -72,15 +77,24 @@ The user interface for P.E.E.R is created using Flask and Python. Flask is a lig
   }
 </style>
 
-<p align="center">
-  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700" alt="page 1">
-  <span class="arrow">➡️</span>
-  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432" alt="page 2">
-  <span class="down-arrow">⬇️</span>
-  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/21250a7a-f23d-486d-8a55-7542da30144e" alt="page 3">
-  <span class="arrow">➡️</span>
-  <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd" alt="page 4">
-</p>
+<div class="images-container">
+  <div>
+    <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/7bab21c3-ece0-4c9b-a361-f9cc3e4cf700" alt="page 1">
+    <span class="arrow">➡️</span>
+  </div>
+  <div>
+    <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/2814614e-041a-4972-abd8-f6a972904432" alt="page 2">
+    <span class="arrow down-arrow">⬇️</span>
+  </div>
+  <div>
+    <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/21250a7a-f23d-486d-8a55-7542da30144e" alt="page 3">
+    <span class="arrow">➡️</span>
+  </div>
+  <div>
+    <img width="400" src="https://github.com/RITHVIK23/Personalized-Education-Enhancer-and-Recommender/assets/58556705/263c1a96-164b-493f-afed-1e9fc1c7f5cd" alt="page 4">
+  </div>
+</div>
+
 
 
 **Is P.E.E.R doing good?**
