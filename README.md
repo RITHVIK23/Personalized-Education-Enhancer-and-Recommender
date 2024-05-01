@@ -26,17 +26,17 @@ Ever felt lost in the sea of educational resources available online? You’re no
 - **Supports Your Growth**: With resources tailored to match your current level, you can steadily progress in your studies.
 
 
-## Where did we collect our data?
+## Where did we collect the data?
 
-We gathered our data from two main sources to offer a broad range of educational content. By using APIs from Google Books and Udemy, we collected almost 120k rows of data from Google Books and almost 40k rows of data from Udemy courses, providing users with diverse resources to explore. To store this data effectively, we turned to Amazon AWS's cloud database. This PostgreSQL database allowed us to organize the data into relational tables, making it easy to access and manage. Before integrating the data into our model, we took the necessary steps to clean and prepare it. This ensured that the data was in optimal condition for use in our model. Our process involved collecting data from multiple sources, storing it in a cloud database, and preprocessing it to maintain its quality. This data was then integrated into our model to generate personalized educational recommendations based on user preferences and interaction history.
+We gathered our data from two main sources to offer a broad range of educational content. By using APIs from Google Books and Udemy, we collected about 120k rows of data from Google Books and 40k rows of data from Udemy courses respectively, providing users with diverse resources to explore. To store this data effectively, we turned to Amazon AWS's cloud database. This PostgreSQL database allowed us to organize the data into relational tables, making it easy to access and manage. Before integrating the data into our model, we took the necessary steps to clean and prepare it. This ensured that the data was in optimal condition for use in our model. Our process involved collecting data from multiple sources, storing it in a cloud database, and preprocessing it to maintain its quality. This data was then integrated into our model to generate personalized educational recommendations based on user preferences and interaction history.
 
 ## How Does P.E.E.R actually Work?
 
 P.E.E.R has two main functionalities:
 
-1) Full-Text Search: P.E.E.R. aggregates educational content from multiple sources, including books and video courses, and presents it in a single, easy-to-access platform. Users can search for a topic and find relevant resources from integrated platforms.
+1) **Full-Text Search:** P.E.E.R. aggregates educational content from multiple sources, including books and video courses, and presents it in a single, easy-to-access platform. Users can search for a topic and find relevant resources from integrated platforms.
    
-2) Personalized Recommendations Based on User Preferences: P.E.E.R. analyzes user interactions, preferences, and past searches to deliver personalized recommendations. This helps users discover content that aligns with their interests and learning goals.
+2) **Personalized Recommendations Based on User Preferences:** P.E.E.R. analyzes user interactions, preferences, and past searches to deliver personalized recommendations. This helps users discover content that aligns with their interests and learning goals.
 
 **Our Search Engine**
 
@@ -52,7 +52,7 @@ P.E.E.R has two main functionalities:
 
 **Our Recommendation System**
 
-1) It uses the BERT for natural language processing tasks and the tokenizer to convert text into a format that BERT can process.
+1) It uses the BERT for natural language processing task and the tokenizer to convert text into a format that BERT can process.
    
 2) Book/Online Course descriptions are analyzed and compared using BERT to generate embeddings, which are representations of the text.
    
